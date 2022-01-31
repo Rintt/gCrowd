@@ -1,0 +1,66 @@
+.ButtonClass{
+    border: 10px solid #0f2710;
+    margin: 40px;
+    border-radius: 40px;
+    padding-top: 2%;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: #388E3C;
+    transition-duration:0.5s;
+    filter: brightness(.85);
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+
+    /* box-shadow: 5px 5px 5px 0px#102c12; */
+}
+.ButtonClass:hover{
+    transition-duration:0.5s;
+    cursor: pointer;
+    filter: brightness(1.1);
+}
+.ButtonClass2{
+    border: 5px solid #75AF33;
+    margin: 40px;
+    border-radius: 60px;
+    padding-top: 2%;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: #75AF33;
+    transition-duration:0.5s;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+
+    /* box-shadow: 5px 5px 5px 0px#102c12; */
+}
+.ButtonClass2:hover{
+    transition-duration:0.5s;
+    cursor: pointer;
+    border: 5px solid #75AF33;
+    background-color: white;
+    color: white;
+
+}
+.ButtonClass2:hover p{
+    transition-duration:0.5s;
+    color: #75AF33;
+
+}
+
+.pClass{
+    color: white;
+    font:15px bold 30px;}
+/* .pClass2{
+        color: #ffffff;
+        transition-duration:0.5s;
+
+        font:15px bold 30px;}
+.pClass2:hover{
+    transition-duration:0.5s;
+    color: #75AF33;
+} */

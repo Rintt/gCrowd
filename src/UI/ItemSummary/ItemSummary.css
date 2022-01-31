@@ -1,0 +1,75 @@
+.ItemSummaryClass{
+    margin: 0px;
+    margin-bottom: 20px;
+    padding-top: 2%;
+    padding-right: 3%;
+    padding-left: 3%;
+    transition-duration:0.5s;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 65vw;
+    height: 180px;
+    /* box-shadow: 5px 5px 5px 0px#102c12; */
+}
+/* .ItemSummaryClass:hover{
+    transition-duration:0.5s;
+    cursor: pointer;
+    filter: brightness(1.1);
+} */
+
+.ItemSummaryClass2{
+    width: 65vw;
+    height: 200px;
+    margin: 40px;
+    margin-bottom: 0px;
+    border-radius: 60px;
+    padding-top: 2%;
+    padding-right: 3%;
+    padding-left: 3%;
+    transition-duration:0.5s;
+    align-items: left;
+    /* flex-direction: column; */
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    text-overflow:ellipsis;
+    overflow: hidden; 
+    /* box-shadow: 5px 5px 5px 0px#102c12; */
+}
+
+
+.ItemSummaryClass2 h3{
+    color: black;
+    font-family: Spinnaker;
+} 
+.ItemSummaryClass h3{
+    color: black;
+    font-family: Spinnaker;
+} 
+.ipClass{
+    position: relative;
+    color: black;
+    font-size: large;
+    font-family: Spinnaker;
+
+    font-weight: 100;}
+
+/* .pClass2{
+        color: #ffffff;
+        transition-duration:0.5s;
+
+        font:15px bold 30px;}
+.pClass2:hover{
+    transition-duration:0.5s;
+    color: #75AF33;
+} */
+.founder-logo{
+border-radius: 50%;    
+width: 50%;
+}
+.HelpTheIdea{
+    position: absolute;
+    right: 1vw;
+}

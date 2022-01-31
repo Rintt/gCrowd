@@ -1,0 +1,66 @@
+html, body, #app, #app>div {
+    height: 100%;
+    width: 100%;
+  margin:0;
+  padding:0;
+  }
+  
+  .App {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Support-logo {
+    height: 25vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Support-logo {
+    }
+  }
+  
+  .Support-header {
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes Support-logo-spin {
+      0%   {transform: rotate(0deg)}
+      10%  {transform: rotate(0deg)}
+      20%  {transform: rotate(0deg)}
+      30%  {transform: rotate(5deg)}
+      40%  {transform: rotate(-5deg)}
+      50%  {transform: rotate(5deg)}
+      60%  {transform: rotate(-5deg)}
+      70%  {transform: rotate(5deg)}
+      80%  {transform: rotate(0deg)}
+      90%  {transform: rotate(0deg)}
+      100% {transform: rotate(0deg)}
+  }
+  .contactItems{
+    position: relative;
+   left: 7.1vmin;
+  }
+  .cardContainer{
+    width: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }

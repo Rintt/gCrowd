@@ -1,41 +1,27 @@
-html, body, #app, #app>div {
-  height: 100%;
-  width: 100%;
-margin:0;
-padding:0;
-}
-
 .App {
-  background-color: #ffffff;
-  width: 100%;
-  height: 100%; 
-  margin: 0;
-  padding: 0;
+  text-align: center;
 }
 
 .App-logo {
-  height: 15vmin;
+  height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 5s cubic-bezier(0, 0, 0, 1);
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 
 .App-header {
+  background-color: #282c34;
   min-height: 100vh;
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-image: url('./friends.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .App-link {
@@ -43,29 +29,11 @@ padding:0;
 }
 
 @keyframes App-logo-spin {
-    0%   {transform: rotate(30deg)}
-    25%  {transform: rotate(35deg)}
-    75%  {transform: rotate(35deg)}
-    100% {transform: rotate(30deg)}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-.lowerMenu{
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 
-
-}
-.menuItems{
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  top: 1.5vmin;
-  left: 16.1vmin;
-}
-.contactItems{
-  position: relative;
-left: 7.1vmin;
-}

@@ -1,0 +1,51 @@
+.CardClass{
+    border: 3px solid white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-radius: 0px;
+    padding-top: 2%;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: #388E3C;
+    transition-duration:0.5s;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 21.5vh;
+    height: 26vh;
+
+
+    /* box-shadow: 5px 5px 5px 0px#102c12; */
+}
+.CardClass:hover{
+    transition-duration:0.5s;
+    cursor: pointer;
+}
+.chClass{
+    position: absolute;
+    top: 5vh;
+    color: #ffffff;
+    font-size: 3.5vh;
+    padding: 10px;
+    
+}
+
+.cpClass{
+    position: absolute;
+    top: 10vh;
+    width: 20vh;
+    color: #ffffff;
+    padding: 10px;
+    padding-bottom: 80px;
+    font-size: 1.6vh;
+}
+.CardClass .CardCustomButton{
+    display: none;
+}
+.CardClass:hover .CardCustomButton{
+    transition-duration:0.5s;
+    display: inline-block;
+    }
