@@ -75,12 +75,34 @@ function rootReducer(state = initialState, action) {
     case 'increment':
       let newIdeas = [...state.ideas];
       let newIdea = newIdeas[action.id-1]
+      if((parseInt(newIdea.progress) ) >= 100){
+        return state;
+      }
       newIdea.progress = (parseInt(newIdea.progress) + 1).toString();
       newIdeas[action.id-1] = newIdea; 
       return {
         ...state,
         ideas: newIdeas
       }
+    case 'newIdea':
+      let newIdeas2 = [...state.ideas];
+      let newIdea2 = {
+        id: state.ideas.length + 1,
+        short: action.short,
+        long:action.short,
+        need:action.need,
+        team:action.team,
+        founderInfo:action.founderInfo,
+        likes:0,
+        phase: 1,
+        campus:action.campus,
+        imgSource:'anon',
+        progress:'0',
+        title: action.title,
+        }
+        newIdeas2.push(newIdea2);
+      return {...state,
+      ideas: newIdeas2}
     default:
       return state
   }

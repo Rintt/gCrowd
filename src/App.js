@@ -3,15 +3,11 @@ import Navbar from './UI/Navbar/Navbar';
 import Navlink from './UI/Navbar/Navlink/Navlink';
 // pages
 import Welcome from "./pages/welcome/Welcome"
-import Home from './pages/Home'
-import About from './pages/About'
-import Products from './pages/Products'
-import ProductDetails from './pages/ProductDetails'
 import Idea from './pages/idea/Idea';
 import {createBrowserHistory} from 'history';
 import history from './history';
 import Support from './pages/support/Support';
-import SingleIdea from './pages/SingleIdea/SingleIdea';
+import SingleIdea from './pages/singleIdea/SingleIdea';
 export const customHistory = createBrowserHistory();
 
 function App() {

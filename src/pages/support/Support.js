@@ -5,7 +5,6 @@ import logo from './g10.png';
 import "./Support.css"
 import Card from '../../UI/Card/Card';
 import ItemSummary from '../../UI/ItemSummary/ItemSummary';
-import { useSelector, useDispatch } from 'react-redux';
 import { connect } from 'react-redux';
 
 export class Support extends React.Component  {

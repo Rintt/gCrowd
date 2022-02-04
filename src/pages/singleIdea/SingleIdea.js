@@ -3,7 +3,7 @@ import { useLocation, Link } from "react-router-dom";
 import CustomButton from '../../UI/CustomButton/CustomButton';
 import "./SingleIdea.css"
 
-import { connect, useSelector, useDispatch } from 'react-redux';
+import { connect } from 'react-redux';
 
 export class SingleIdea extends React.Component {
     constructor(props) {
@@ -57,7 +57,10 @@ export class SingleIdea extends React.Component {
                         <div className="col-6 center">
                             <h3>Progress</h3>
                             <div className='containerContainer'>
-                            <div className="w3-container" style={{width: idea.progress + '%'}}>{idea.progress}%</div>
+                            <div className="w3-container" style={{width: idea.progress + '%',
+                             backgroundColor: idea.progress == '100' ? '#ffdb1b' : '',
+                             color: idea.progress == '100' ? '#75AF33' : 'white'
+                             }}>{idea.progress}%</div>
                             </div>
                         </div>
                     </div>

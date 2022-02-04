@@ -78,7 +78,7 @@ const ItemSummary = ({
                         buttonStyle={{marginLeft: '-65px', height:'6vh', width:'20vh', position: 'relative', bottom: "1vh"}}/>
                     </div>
                     <div className="col-2">
-                        <img src={require('./' + imgSource + '.jpg')} className="founder-logo" alt="logo" />  
+                        <img src={require('./' + imgSource + '.jpg' )} className="founder-logo" alt="Profile Img" />  
                     </div>
                     <div className="col-2" style={{}}>
                     <div className="row">
